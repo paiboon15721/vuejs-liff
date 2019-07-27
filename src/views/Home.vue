@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <div>userId: {{ profile.userId }}</div>
+    <div>userId: {{ profile.userId || '-' }}</div>
   </div>
 </template>
 

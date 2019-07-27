@@ -30,8 +30,7 @@
 export default {
   beforeCreate () {
     this.$liff.init(function (data) {
-      console.log('liffData', data.context.userId)
-      this.userId = 'Nann'
+      console.log('liffUserID::', data.context.userId)
     })
   }
 }
