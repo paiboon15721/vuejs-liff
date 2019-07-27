@@ -30,7 +30,7 @@
 export default {
   beforeCreate () {
     this.$liff.init(function (data) {
-      console.log( 'liffData', data );
+      console.log('liffData',data)
     })
   }
 }
