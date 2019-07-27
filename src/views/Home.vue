@@ -11,7 +11,7 @@ export default {
   name: 'home',
   components: {
   },
-  data: (data) => ({
+  data: () => ({
     profile: {
       userId: '',
       displayName: '',
