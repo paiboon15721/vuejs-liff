@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <div>userId: {{ profile.userId || '-' }}</div>
+    <div>{{ profile.displayName || '-' }}</div>
     <button @click="getProfile()">Get Profile</button>
   </div>
 </template>
