@@ -32,6 +32,9 @@ export default {
     this.$liff.init(function (data) {
       console.log('liffUserID::', data.context.userId)
     })
+  },
+  created () {
+    this.getProfile()
   }
 }
 </script>
