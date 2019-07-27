@@ -31,6 +31,12 @@ export default {
   beforeCreate () {
     this.$liff.init(function (data) {
       console.log( 'liffData', data );
+    })
+  },
+  mounted: function () {
+    this.$liff.init(function (data) {
+      // Code that will run only after the
+      // entire view has been rendered
       profile.userId = data.context.userId
     })
   }
