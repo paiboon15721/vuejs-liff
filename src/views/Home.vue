@@ -13,7 +13,7 @@ export default {
   },
   data: (data) => ({
     profile: {
-      userId: data.context.userId,
+      userId: '',
       displayName: '',
       pictureUrl: '',
       statusMessage: ''
