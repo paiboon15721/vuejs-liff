@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
+Vue.prototype.$liff = window.liff
 Vue.config.productionTip = false
 
 new Vue({

@@ -25,3 +25,13 @@
   }
 }
 </style>
+
+<script>
+export default {
+  beforeCreate () {
+    this.$liff.init(function (data) {
+      console.log( 'liffData', data );
+    })
+  }
+}
+</script>
