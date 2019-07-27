@@ -20,12 +20,6 @@ export default {
     }
   }),
   methods: {
-    getUserId() {
-        this.$liff.init().then(function (userId) {
-            let _this = 
-            _this.userId = userId
-        })
-    },
     openWindow () {
       this.$liff.openWindow({
         url: 'https://developers.line.me/en/docs/liff/overview/'
